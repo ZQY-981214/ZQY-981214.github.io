@@ -1,0 +1,91 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.c-container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: url(background.jpg);
+    background-attachment: fixed;
+
+}
+
+
+
+.dycalendar-container {
+    position: relative;
+    left: 30px;
+    top: 30px;
+
+    width: 500px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(25px);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dycalendar{
+    
+
+    width:100%;
+    padding: 20px;
+}
+
+#dycalendar table{
+    
+    width:100%;
+    margin-top: 40px;
+    border-spacing: 5px;
+}
+
+#dycalendar table tr:nth-child(1) td
+{
+    background: rgb(174, 188, 209,0.2);
+    color: #111;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+#dycalendar table td{
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#dycalendar table td:hover{
+    background: #fff;
+    color:#111 !important;
+}
+
+.dycalendar-month-container .dycalendar-span-month-year ,.dycalendar-prev-next-btn ,.dycalendar-prev-next-btn {
+    color: #fff;
+}
+
+.btn{
+    position: relative;
+    top: -300px;
+    left: 750px;
+}
+
+#phrase{
+
+    position: relative;
+    top: 525px;
+    left: 75px;
+    width:400px;
+    max-height: 200px;
+    color: #fff;
+    font-family: "PingFang SC","Microsoft YaHei","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+}
